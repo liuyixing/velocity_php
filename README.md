@@ -6,10 +6,10 @@ Velocity编译器设计
 1.词法分析
 去掉注释 ## #* *#
 
-2.语法分析
-stmts -> stmt stmts
-         | ∈
-
+2.语法分析<br>
+stmts -> stmt stmts<br>
+         | ∈<br>
+<br>
 stmt -> IF (expr) stmts optelseifs optelse ENDIF
       | FOREACH (DOLLARID IN ref) stmts ENFOREACH
       | SET (DOLLARID = expr)
